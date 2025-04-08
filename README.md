@@ -51,7 +51,7 @@ CREATE DATABASE prueba;
 
 1. Clona este repositorio:
     ```bash
-    git clone (https://github.com/Victormrl17/rtc-back.git)
+    git clone https://github.com/Victormrl17/rtc-back.git
     cd rtc-back
     ```
 2. Compila el proyecto con Maven:
