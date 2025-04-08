@@ -18,7 +18,7 @@ Este proyecto es una API REST para gestionar marcas y buses. Permite realizar op
 
 ### Requisitos previos
 
-1. **Java 17** instalado.
+1. **Java 24** instalado.
 2. **Maven** instalado.
 3. **MySQL** instalado y configurado.
 
@@ -51,16 +51,16 @@ CREATE DATABASE prueba;
 
 1. Clona este repositorio:
     ```bash
-    git clone <URL_DEL_REPOSITORIO>
+    git clone (https://github.com/Victormrl17/rtc-back.git)
     cd rtc-back
     ```
 2. Compila el proyecto con Maven:
     ```bash
-    mvn clean install
+    ./mvnw clean install 
     ```
 3. Ejecuta la aplicación:
     ```bash
-    mvn spring-boot:run
+    ./mvnw spring-boot:run
     ```
 4. La API estará disponible en `http://localhost:8080`.
 
